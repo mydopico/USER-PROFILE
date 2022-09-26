@@ -1,0 +1,131 @@
+body {
+    background: url("https://images.unsplash.com/photo-1531685250784-7569952593d2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80");  
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+	font-family: 'Montserrat', sans-serif;   
+}
+
+.navbar-brand {
+	color: rgb(226, 131, 131);
+	/* font-family: "McLaren", cursive;	 */
+	margin-left: 10%;
+}
+
+.navbar-brand:hover {
+	color: #63635c;	
+}
+
+span {
+	font-size: 12px;
+}
+
+/* LEFT SIDE WITH TEXT AND FOOTPRINTS */
+
+.left {
+	position: relative;	
+    background: rgba(226, 131, 131,0.4);
+    height: 450px;
+    color: antiquewhite;
+    text-align: center;
+    border-radius: 24px;
+    box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	overflow: hidden;
+}
+
+.left h1 {
+    font-size: 48px;
+    text-shadow: 2px 2px 4px #6c6969;
+}
+
+.petName {
+	color: rgb(151, 57, 57, 0.8);
+	font-family: 'Amita', cursive;
+	font-size: 48px;
+	font-weight: bold;
+}
+
+#donabutton {
+    background: rgb(151, 57, 57, 0.8);	
+	border-radius: 24px;
+	border: none;
+}
+
+#donabutton:hover {
+	background: rgb(151, 57, 57, 0.6);
+	border: none;
+	box-shadow: 0 4px 8px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	font-size: 22px;
+}
+
+/* RIGHT SIDE WITH PHOTO */
+
+.right { 
+	height: 450px;			
+ } 
+
+
+#dog-index {	
+    margin: 55px 100px;
+    width: 70%;
+    border-radius: 10px 100px / 120px;	
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	border: solid 10px rgba(151, 57, 57, 0.2);
+	transform: rotate(90deg);	
+}
+
+/* social icons */
+.fa-facebook-f {
+	border-radius: 50%;
+	box-shadow: 0 8px 16px 8px rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);	
+	padding: 10px 16px;	
+	background: #3B5998;
+	color: white;
+  }
+  
+.fa-twitter {
+	  border-radius: 50%;
+	  box-shadow: 0 8px 16px 8px rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	  background: #55ACEE;
+	  color: white;	  
+	  padding: 10px 13px;	
+  }
+
+  .fa-whatsapp {
+	  border-radius: 50%;
+	  box-shadow: 0 8px 16px 8px rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	  background: #008000;
+	  color: white;
+	  padding: 10px 13px;
+  }
+
+  .fa-heart {
+	  border-radius: 50%;
+	  box-shadow: 0 8px 16px 8px rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	  background: rgb(194, 4, 4);
+	  color: white;	  
+	  padding: 10px 13px;
+
+  }
+
+  .fa-heart:hover {
+	opacity: 0.6;
+  }
+
+  .fa-twitter:hover {
+	opacity: 0.6;
+  }
+  
+  .fa-facebook-f:hover {
+	opacity: 0.6;
+  }  
+
+  .fa-whatsapp:hover {
+	opacity: 0.6;
+  }
+
+
+
+
+  
+
